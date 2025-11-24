@@ -4,10 +4,13 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 const staff = [
-  { name: "Ms. Hauwa Abdullahi", role: "Teacher - Nursery", subjects: "Early Learning, Arts", image: "/assets/founder1.jpg" },
-  { name: "Mr. Yusuf Bello", role: "Teacher - Secondary", subjects: "History, Geography", image: "/assets/founder1.jpg" },
-  { name: "Mrs. Zainab Ali", role: "Teacher - Primary", subjects: "English, Mathematics", image: "/assets/founder1.jpg" },
-  { name: "Mr. Ahmed Saleh", role: "Teacher - Secondary", subjects: "Biology, Chemistry", image: "/assets/founder1.jpg" },
+  { name: "SHITTU TAOFIQ ABDULLAHI", role: "Teacher - Secondary", subjects: "Early Learning, Arts", image: "/assets/founder1.jpg" },
+  { name: "ABDULKAREEM JAMIU", role: "Teacher - Secondary", subjects: "History, Geography", image: "/assets/founder1.jpg" },
+  { name: "ABDULLAHI MUHAMMAD RABIU", role: "Teacher - Secondary", subjects: "English, Mathematics", image: "/assets/founder1.jpg" },
+  { name: "SIKIRU AZEEZAT IYABO", role: "Teacher - Secondary", subjects: "Biology, Chemistry", image: "/assets/founder1.jpg" },
+  { name: "SANNI IDIAT SHADE", role: "Teacher - Secondary", subjects: "Biology, Chemistry", image: "/assets/founder1.jpg" },
+  { name: "ABDUSSALAM HABIBULLAH", role: "Teacher - Secondary", subjects: "Biology, Chemistry", image: "/assets/founder1.jpg" },
+  { name: "USMAN ZAINAB ABUBAKAR", role: "Teacher - Secondary", subjects: "Biology, Chemistry", image: "/assets/founder1.jpg" },
 ];
 
 export default function StaffSection() {
@@ -21,7 +24,7 @@ export default function StaffSection() {
         className="text-center mb-14"
       >
         <h2 className="text-4xl font-bold mb-3" style={{ color: "var(--turaath-green)" }}>
-          Our Staff
+          Our Officials
         </h2>
         <p className="text-gray-700 max-w-2xl mx-auto">
           Dedicated educators shaping the minds and hearts of our students.

@@ -1,17 +1,17 @@
 "use client";
 
 import DeveloperSection from "@/components/About/Developer";
+import AboutHeroSection from "@/components/About/Hero";
 import HistorySection from "@/components/About/History";
-import LeadershipSection from "@/components/About/Leadership";
 import MissionVisionValues from "@/components/About/Missions";
 import StaffSection from "@/components/About/Staff";
 
 export default function AboutPage() {
   return (
     <main>
+      <AboutHeroSection />
       <HistorySection />
       <MissionVisionValues />
-      <LeadershipSection />
       <StaffSection />
       <DeveloperSection />
     </main>

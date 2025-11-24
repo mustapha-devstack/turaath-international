@@ -5,33 +5,45 @@ import Image from "next/image";
 
 const founders = [
   {
-    name: "Dr. Aisha Suleiman",
-    role: "Co-Founder & Principal",
+    name: "SHITTU TAOFIQ ABDULLAHI",
+    role: "Co-Founder",
     bio: "A visionary educator with 20+ years of experience in curriculum development and academic leadership.",
     image: "/assets/founder1.jpg",
   },
   {
-    name: "Mr. Ibrahim Adamu",
-    role: "Co-Founder & Head of Primary",
+    name: "ABDULKAREEM JAMIU",
+    role: "Co-Founder",
     bio: "Passionate about nurturing young minds, integrating creativity and critical thinking in early education.",
     image: "/assets/founder1.jpg",
   },
   {
-    name: "Mrs. Fatima Musa",
-    role: "Co-Founder & Head of Secondary",
+    name: "ABDULLAHI MUHAMMAD RABIU",
+    role: "Co-Founder",
     bio: "Dedicated to fostering lifelong learning and innovation, guiding students to excel academically and socially.",
     image: "/assets/founder1.jpg",
   },
   {
-    name: "Mr. Yusuf Bello",
-    role: "Co-Founder & Culture Coordinator",
+    name: "SIKIRU AZEEZAT IYABO",
+    role: "Co-Founder",
     bio: "Committed to instilling values, cultural awareness, and character development in every student.",
     image: "/assets/founder1.jpg",
   },
   {
-    name: "Ms. Hauwa Abdullahi",
-    role: "Co-Founder & Innovation Lead",
+    name: "SANNI IDIAT SHADE",
+    role: "Co-Founder",
     bio: "Focuses on integrating modern learning tools and technology to enhance education for future leaders.",
+    image: "/assets/founder1.jpg",
+  },
+  {
+    name: "ABDUSSALAM HABIBULLAH",
+    role: "Co-Founder",
+    bio: "Dedicated to fostering lifelong learning and innovation, guiding students to excel academically and socially.",
+    image: "/assets/founder1.jpg",
+  },
+  {
+    name: "USMAN ZAINAB ABUBAKAR",
+    role: "Co-Founder",
+    bio: "Passionate about nurturing young minds, integrating creativity and critical thinking in early education.",
     image: "/assets/founder1.jpg",
   },
 ];

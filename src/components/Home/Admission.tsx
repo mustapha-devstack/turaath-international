@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 import { Mail, PhoneCall, MapPin } from "lucide-react";
 
 export default function AdmissionsSection() {
@@ -70,12 +71,12 @@ export default function AdmissionsSection() {
         viewport={{ once: true }}
         className="mt-12 text-center"
       >
-        <a
-          href="#"
+        <Link
+          href="/admission"
           className="inline-block px-8 py-4 rounded-xl font-semibold bg-[var(--turaath-gold)] text-[var(--turaath-dark)] hover:bg-amber-600 transition-colors shadow-lg"
         >
           Apply Now
-        </a>
+        </Link>
       </motion.div>
     </section>
   );

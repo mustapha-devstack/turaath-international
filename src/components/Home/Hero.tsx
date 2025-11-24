@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function HeroSection() {
   return (
@@ -56,17 +57,17 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8 }}
-          className="flex gap-4"
+          className="flex gap-4 flex-col sm:flex-row"
         >
-          <button className="text-white px-6 py-3 rounded-xl flex items-center gap-2 shadow-lg transition-all bg-[var(--turaath-green)] hover:bg-emerald-800">
-            Explore Our School <ArrowRight size={18} />
-          </button>
+          <Link href="/about" className="text-white px-6 py-3 rounded-xl flex items-center gap-2 shadow-lg transition-all bg-[var(--turaath-green)] hover:bg-emerald-800">
+              Explore Our School <ArrowRight size={18} />
+          </Link>
 
-          <button className="border px-6 py-3 rounded-xl transition-all
-                             border-[var(--turaath-gold)] text-[var(--turaath-gold)]
-                             hover:bg-[var(--turaath-gold)] hover:text-[var(--turaath-dark)]">
-            Admissions Open
-          </button>
+          <Link href="/admission" className="border px-6 py-3 rounded-xl transition-all
+                          border-[var(--turaath-gold)] text-[var(--turaath-gold)]
+                          hover:bg-[var(--turaath-gold)] hover:text-[var(--turaath-dark)]">
+              Admissions Open
+          </Link>
         </motion.div>
       </div>
     </section>
