@@ -10,15 +10,13 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
+  // Navigation for consultation subdomain
   const navigation = [
-    { name: "Home", href: "/" },
-    { name: "Consultation", href: "/consultation" },
-    { name: "About Us", href: "/about" },
-    { name: "Academics", href: "/programs" },
-    { name: "Admission", href: "/admission" },
-    { name: "Gallery", href: "/gallery" },
-    { name: "News & Events", href: "/news" },
-    { name: "Contact", href: "/contact" },
+    { name: "Home", href: "/consultation/" },
+    { name: "About", href: "/consultation/about" },
+    { name: "Services", href: "/consultation/services" },
+    { name: "Consultants", href: "/consultation/consultants" },
+    { name: "Contact", href: "/consultation/contact" },
   ];
 
   useEffect(() => {
@@ -37,16 +35,16 @@ export default function Header() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 md:px-20 flex items-center justify-between h-16">
-        {/* Logo Only */}
-        <Link href="/" className="flex items-center gap-3">
+        {/* Logo + Text */}
+        <Link href="/consultation/" className="flex items-center gap-3">
           <motion.div
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.6 }}
           >
             <Image
-              src="/logo.png" // square PNG logo
-              alt="Turaath School Logo"
+              src="/logo.png"
+              alt="Turaath Consultation Logo"
               width={50}
               height={50}
               className="rounded-md shadow-md"
@@ -58,7 +56,7 @@ export default function Header() {
             transition={{ delay: 0.3, duration: 0.6 }}
             className="text-[var(--turaath-gold)] font-bold text-xl md:text-2xl"
           >
-            Turaath International
+            Turaath Consultation
           </motion.span>
         </Link>
 
